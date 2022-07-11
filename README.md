@@ -1,3 +1,3 @@
 # LandUseClassificationUsingCNN
 
-Final Project at SNHU for a Master in Data Analytics
+Final Project at SNHU for a Masters in Data Analytics
