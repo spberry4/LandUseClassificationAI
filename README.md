@@ -1,30 +1,4 @@
-# LandUseClassificationUsingCNN
-
-Final Project at SNHU for a Masters in Data Analytics
-
-Data retrieved from AVIRIS and can be located here:
-
-http://www.ehu.eus/ccwintco/uploads/a/a3/Salinas_corrected.mat 
-http://www.ehu.eus/ccwintco/uploads/f/fa/Salinas_gt.mat
-
-There are 16 land classes that are being used as follows:
-
-Brocoli_green_weeds_1
-Brocoli_green_weeds_2
-Fallow
-Fallow_rough_plow
-Fallow_smooth
-Stubble
-Celery
-Grapes_untrained
-Soil_vinyard_develop
-Corn_senesced_green_weeds
-Lettuce_romaine_4wk
-Lettuce_romaine_5wk
-Lettuce_romaine_6wk
-Lettuce_romaine_7wk
-Vinyard_untrained
-Vinyard_vertical_trellis
+# Land Usage Classification AI
 
 Project Name: Land Usage Classification AI
 
@@ -37,3 +11,10 @@ Model Performance: On 10,826 observations the testing data achieved a 92% accura
 ![confusion matrix](https://user-images.githubusercontent.com/95090904/182252064-8eb10d6a-dc78-40fb-94bf-4ea85af430fe.png)
 
 We can clearly see that the model does a great job at classifying almost all the different classes except for 15 and 8 which are grapes and a vineyard. These two are very similar to each other so it's no surprise that this is happening. Further training would be needed to correct this but an accuracy of 92% is already quite high therefore this may not be needed.
+
+Additional Info:
+
+Data retrieved from AVIRIS and can be located here:
+
+http://www.ehu.eus/ccwintco/uploads/a/a3/Salinas_corrected.mat 
+http://www.ehu.eus/ccwintco/uploads/f/fa/Salinas_gt.mat
